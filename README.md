@@ -17,6 +17,7 @@ This code is part of the paper: Edge Guided Slicing and Inference (EGSI) with Fe
 
 ```sh
 python edge_guided_slicing.py
+'''
 
 ## Citation
 This project is part of the research paper:  
