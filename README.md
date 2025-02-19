@@ -17,3 +17,10 @@ This code is part of the paper: Edge Guided Slicing and Inference (EGSI) with Fe
 
 ```sh
 python edge_guided_slicing.py
+
+## Citation
+This project is part of the research paper:  
+
+📄 **Njoroge J. Mugo, Ali Akbar, Lee Seojoon, Soonwook Kwon**  
+*"Edge Guided Slicing and Inference (EGSI) with Feature Aggregation Network for Quantification of Large Defective Temporary Materials"*  
+(Submitted to the *Journal of Asian Architecture and Building Engineering, 2025*)  
