@@ -10,7 +10,7 @@ This project uses edge density to determine the slicing parameters for an image 
 ## Usage
 
 1. Ensure you have all the required dependencies installed. You can install them using the `requirements.txt` file.
-   '''sh
+   ```sh
    pip install requirements.txt
 3. Update the `image_path` and `yolov8_model_path` variables in `edge_guided_slicing.py` with the path to your image and YOLOv8 model respectively.
 4. Run the `edge_guided_slicing.py` script to perform object detection on the image.
@@ -24,6 +24,3 @@ This project is part of the research paper:
 *"Edge Guided Slicing and Inference (EGSI) with Feature Aggregation Network for Quantification of Large Defective Temporary Materials"*  
 (Submitted to the *Journal of Asian Architecture and Building Engineering, 2025*)  
 
-
-```sh
-python edge_guided_slicing.py
