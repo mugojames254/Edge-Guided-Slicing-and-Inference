@@ -1,11 +1,11 @@
 # Edge Guided Slicing
 
-This project uses edge density to determine the slicing parameters for an image and performs object detection using a YOLOv8 model.
+This project uses edge density to determine the image slice parameters dynamically through yolov8 model object detector.
 
 ## Files
 
 - `dynamicOverlap.py`: Contains the `edgeDensity` function which calculates the edge density of an image and determines the slicing parameters.
-- `edge_guided_slicing.py`: Uses the `edgeDensity` function to get slicing parameters and performs object detection on the sliced image.
+- `edge_guided_slicing.py`: Uses the `edgeDensity` function to retrieve slicing parameters.
 
 ## Usage
 
@@ -20,7 +20,7 @@ This project uses edge density to determine the slicing parameters for an image 
 ## Citation
 This project is part of the research paper:  
 
-📄 **Njoroge J. Mugo, Ali Akbar, Lee Seojoon, Soonwook Kwon**  
+📄 **Njoroge James Mugo, Akbar Ali, Song Jinwoo, Soonwook Kwon**  
 *"Edge Guided Slicing and Inference (EGSI) with Feature Aggregation Network for Quantification of Large Defective Temporary Materials"*  
 (Submitted to the *Journal of Asian Architecture and Building Engineering, 2025*)  
 
